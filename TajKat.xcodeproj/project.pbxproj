@@ -7,13 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60A444AA1F8D7F6C003CF74D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60A444A91F8D7F6C003CF74D /* CoreData.framework */; };
+		60E135F11F8ABD3000215142 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E135F01F8ABD3000215142 /* SettingsViewController.swift */; };
+		60E135F21F8AC1AA00215142 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60E135EA1F8AB91C00215142 /* Main.storyboard */; };
+		60E135F31F8AC1B400215142 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60E135E81F8AB91C00215142 /* LaunchScreen.storyboard */; };
+		7675914F1DB909EDFA9D7633 /* Pods_TajKatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FC972D0CF529D21B4C2FE1 /* Pods_TajKatTests.framework */; };
+		81033205CF3D0C37E94DE972 /* Pods_TajKat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F739F41505326C3C991BC56B /* Pods_TajKat.framework */; };
+		8452A5451F1E99900021884F /* Me.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8452A5441F1E99900021884F /* Me.swift */; };
+		845D37A51F3A156F00AC8BD9 /* NewMessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D37A41F3A156F00AC8BD9 /* NewMessageTableViewController.swift */; };
+		845D37A71F3A504300AC8BD9 /* iChatUsersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D37A61F3A504300AC8BD9 /* iChatUsersCell.swift */; };
+		845D37A91F3CE48D00AC8BD9 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845D37A81F3CE48D00AC8BD9 /* MobileCoreServices.framework */; };
+		845D37AB1F3CE49700AC8BD9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845D37AA1F3CE49700AC8BD9 /* AVFoundation.framework */; };
+		8461D68B1F0FBEEB00FEEDDB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8461D68A1F0FBEEB00FEEDDB /* GoogleService-Info.plist */; };
+		8461D6971F0FC3CC00FEEDDB /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8461D6961F0FC3CC00FEEDDB /* SignInViewController.swift */; };
+		8461D6991F0FC3DF00FEEDDB /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8461D6981F0FC3DF00FEEDDB /* SignUpViewController.swift */; };
+		8461D69B1F0FC76600FEEDDB /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8461D69A1F0FC76600FEEDDB /* Helpers.swift */; };
+		8461D69D1F13A9FD00FEEDDB /* MessagesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8461D69C1F13A9FD00FEEDDB /* MessagesTableViewController.swift */; };
+		8461D6A11F13AA4A00FEEDDB /* MesagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8461D6A01F13AA4A00FEEDDB /* MesagesTableViewCell.swift */; };
+		8477F99E1F23D0C7007D2EF2 /* TimeSeparatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8477F99B1F23D0C7007D2EF2 /* TimeSeparatorModel.swift */; };
+		8477F99F1F23D0C7007D2EF2 /* TimeSeparatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8477F99C1F23D0C7007D2EF2 /* TimeSeparatorPresenter.swift */; };
+		8477F9A01F23D0C7007D2EF2 /* TimeSeparatorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8477F99D1F23D0C7007D2EF2 /* TimeSeparatorCollectionViewCell.swift */; };
+		8477F9A51F23E259007D2EF2 /* SendingStatusCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8477F9A21F23E259007D2EF2 /* SendingStatusCollectionViewCell.swift */; };
+		8477F9A61F23E259007D2EF2 /* SendingStatusCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8477F9A31F23E259007D2EF2 /* SendingStatusCollectionViewCell.xib */; };
+		8477F9A71F23E259007D2EF2 /* SendingStatusPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8477F9A41F23E259007D2EF2 /* SendingStatusPresenter.swift */; };
+		8477F9B51F27A925007D2EF2 /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8477F9B41F27A925007D2EF2 /* Avatar.swift */; };
+		84815ADC1F2E944500FFCD96 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84815ADB1F2E944500FFCD96 /* User.swift */; };
 		84CCB4BA1F07FF4D00854B8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CCB4B91F07FF4D00854B8D /* AppDelegate.swift */; };
-		84CCB4BC1F07FF4D00854B8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CCB4BB1F07FF4D00854B8D /* ViewController.swift */; };
-		84CCB4BF1F07FF4E00854B8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CCB4BD1F07FF4E00854B8D /* Main.storyboard */; };
+		84CCB4BC1F07FF4D00854B8D /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CCB4BB1F07FF4D00854B8D /* ChatLogController.swift */; };
 		84CCB4C11F07FF4E00854B8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CCB4C01F07FF4E00854B8D /* Assets.xcassets */; };
-		84CCB4C41F07FF4E00854B8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CCB4C21F07FF4E00854B8D /* LaunchScreen.storyboard */; };
 		84CCB4CF1F07FF4E00854B8D /* TajKatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CCB4CE1F07FF4E00854B8D /* TajKatTests.swift */; };
 		84CCB4DA1F07FF4E00854B8D /* TajKatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CCB4D91F07FF4E00854B8D /* TajKatUITests.swift */; };
+		84CCB4E91F080AAF00854B8D /* TextModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CCB4E81F080AAF00854B8D /* TextModel.swift */; };
+		84CCB4EB1F080FCB00854B8D /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CCB4EA1F080FCB00854B8D /* DataSource.swift */; };
+		84CCB4ED1F0810D700854B8D /* ChatItemsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CCB4EC1F0810D700854B8D /* ChatItemsController.swift */; };
+		84CCB4EF1F0815C000854B8D /* Decorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CCB4EE1F0815C000854B8D /* Decorator.swift */; };
+		84CCB4F11F081AB200854B8D /* TextBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CCB4F01F081AB200854B8D /* TextBuilder.swift */; };
+		84CCB4F31F081EA500854B8D /* TextHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CCB4F21F081EA500854B8D /* TextHandler.swift */; };
+		84CCB4F61F082CF900854B8D /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CCB4F51F082CF900854B8D /* PhotoModel.swift */; };
+		84CCB4F81F082EBD00854B8D /* PhotoBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CCB4F71F082EBD00854B8D /* PhotoBuilder.swift */; };
+		84CCB4FA1F08313400854B8D /* PhotoHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CCB4F91F08313400854B8D /* PhotoHandler.swift */; };
+		84E8406D1F33BCF000A4DEF7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8406C1F33BCF000A4DEF7 /* Extensions.swift */; };
+		84E8406F1F33BCF800A4DEF7 /* PromptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8406E1F33BCF800A4DEF7 /* PromptView.swift */; };
+		84E840711F33BD6100A4DEF7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E840701F33BD6100A4DEF7 /* Constants.swift */; };
+		84E840731F33BD7200A4DEF7 /* UserState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E840721F33BD7200A4DEF7 /* UserState.swift */; };
+		84E840751F33BFF500A4DEF7 /* DatabaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E840741F33BFF500A4DEF7 /* DatabaseController.swift */; };
+		84E840771F33C01100A4DEF7 /* PromptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E840761F33C01100A4DEF7 /* PromptViewController.swift */; };
+		84E8407B1F33D4E900A4DEF7 /* AuthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8407A1F33D4E900A4DEF7 /* AuthController.swift */; };
+		84E840811F33FC5C00A4DEF7 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E840801F33FC5C00A4DEF7 /* UserProfile.swift */; };
+		C0E15928BA28A75D2F64E2CB /* Pods_TajKatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F69FD4030FB2CBA6BBCD0E6 /* Pods_TajKatUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +75,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02D996F9BEEBC98AACC6443A /* Pods-TajKatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TajKatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TajKatUITests/Pods-TajKatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		22FC972D0CF529D21B4C2FE1 /* Pods_TajKatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TajKatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51806396052613D955181853 /* Pods-TajKat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TajKat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TajKat/Pods-TajKat.debug.xcconfig"; sourceTree = "<group>"; };
+		52630C69303D7CF57A3950DF /* Pods-TajKat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TajKat.release.xcconfig"; path = "Pods/Target Support Files/Pods-TajKat/Pods-TajKat.release.xcconfig"; sourceTree = "<group>"; };
+		55A5462A6CA29DB3EF38BC5A /* Pods-TajKatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TajKatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TajKatTests/Pods-TajKatTests.release.xcconfig"; sourceTree = "<group>"; };
+		60A444A91F8D7F6C003CF74D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		60E135E91F8AB91C00215142 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60E135EB1F8AB91C00215142 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60E135F01F8ABD3000215142 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		60E135F41F8AE55A00215142 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		7F69FD4030FB2CBA6BBCD0E6 /* Pods_TajKatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TajKatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8452A5441F1E99900021884F /* Me.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Me.swift; sourceTree = "<group>"; };
+		845D37A41F3A156F00AC8BD9 /* NewMessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMessageTableViewController.swift; sourceTree = "<group>"; };
+		845D37A61F3A504300AC8BD9 /* iChatUsersCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iChatUsersCell.swift; sourceTree = "<group>"; };
+		845D37A81F3CE48D00AC8BD9 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		845D37AA1F3CE49700AC8BD9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8461D68A1F0FBEEB00FEEDDB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8461D6961F0FC3CC00FEEDDB /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		8461D6981F0FC3DF00FEEDDB /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		8461D69A1F0FC76600FEEDDB /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		8461D69C1F13A9FD00FEEDDB /* MessagesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesTableViewController.swift; sourceTree = "<group>"; };
+		8461D6A01F13AA4A00FEEDDB /* MesagesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MesagesTableViewCell.swift; sourceTree = "<group>"; };
+		8477F99B1F23D0C7007D2EF2 /* TimeSeparatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeSeparatorModel.swift; sourceTree = "<group>"; };
+		8477F99C1F23D0C7007D2EF2 /* TimeSeparatorPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeSeparatorPresenter.swift; sourceTree = "<group>"; };
+		8477F99D1F23D0C7007D2EF2 /* TimeSeparatorCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeSeparatorCollectionViewCell.swift; sourceTree = "<group>"; };
+		8477F9A21F23E259007D2EF2 /* SendingStatusCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendingStatusCollectionViewCell.swift; sourceTree = "<group>"; };
+		8477F9A31F23E259007D2EF2 /* SendingStatusCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SendingStatusCollectionViewCell.xib; sourceTree = "<group>"; };
+		8477F9A41F23E259007D2EF2 /* SendingStatusPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendingStatusPresenter.swift; sourceTree = "<group>"; };
+		8477F9B41F27A925007D2EF2 /* Avatar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
+		84815ADB1F2E944500FFCD96 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		84CCB4B61F07FF4D00854B8D /* TajKat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TajKat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CCB4B91F07FF4D00854B8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84CCB4BB1F07FF4D00854B8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		84CCB4BE1F07FF4E00854B8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84CCB4BB1F07FF4D00854B8D /* ChatLogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
 		84CCB4C01F07FF4E00854B8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		84CCB4C31F07FF4E00854B8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84CCB4C51F07FF4E00854B8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84CCB4CA1F07FF4E00854B8D /* TajKatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TajKatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CCB4CE1F07FF4E00854B8D /* TajKatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TajKatTests.swift; sourceTree = "<group>"; };
@@ -47,6 +116,26 @@
 		84CCB4D51F07FF4E00854B8D /* TajKatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TajKatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CCB4D91F07FF4E00854B8D /* TajKatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TajKatUITests.swift; sourceTree = "<group>"; };
 		84CCB4DB1F07FF4E00854B8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CCB4E81F080AAF00854B8D /* TextModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextModel.swift; sourceTree = "<group>"; };
+		84CCB4EA1F080FCB00854B8D /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		84CCB4EC1F0810D700854B8D /* ChatItemsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatItemsController.swift; sourceTree = "<group>"; };
+		84CCB4EE1F0815C000854B8D /* Decorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Decorator.swift; sourceTree = "<group>"; };
+		84CCB4F01F081AB200854B8D /* TextBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextBuilder.swift; sourceTree = "<group>"; };
+		84CCB4F21F081EA500854B8D /* TextHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextHandler.swift; sourceTree = "<group>"; };
+		84CCB4F51F082CF900854B8D /* PhotoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		84CCB4F71F082EBD00854B8D /* PhotoBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoBuilder.swift; sourceTree = "<group>"; };
+		84CCB4F91F08313400854B8D /* PhotoHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoHandler.swift; sourceTree = "<group>"; };
+		84E8406C1F33BCF000A4DEF7 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		84E8406E1F33BCF800A4DEF7 /* PromptView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromptView.swift; sourceTree = "<group>"; };
+		84E840701F33BD6100A4DEF7 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		84E840721F33BD7200A4DEF7 /* UserState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserState.swift; sourceTree = "<group>"; };
+		84E840741F33BFF500A4DEF7 /* DatabaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseController.swift; sourceTree = "<group>"; };
+		84E840761F33C01100A4DEF7 /* PromptViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromptViewController.swift; sourceTree = "<group>"; };
+		84E8407A1F33D4E900A4DEF7 /* AuthController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthController.swift; sourceTree = "<group>"; };
+		84E840801F33FC5C00A4DEF7 /* UserProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		B5FF25D19FBD46812332E582 /* Pods-TajKatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TajKatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TajKatTests/Pods-TajKatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4984B6392E3A2092837CB42 /* Pods-TajKatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TajKatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TajKatUITests/Pods-TajKatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F739F41505326C3C991BC56B /* Pods_TajKat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TajKat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +143,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60A444AA1F8D7F6C003CF74D /* CoreData.framework in Frameworks */,
+				845D37AB1F3CE49700AC8BD9 /* AVFoundation.framework in Frameworks */,
+				845D37A91F3CE48D00AC8BD9 /* MobileCoreServices.framework in Frameworks */,
+				81033205CF3D0C37E94DE972 /* Pods_TajKat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7675914F1DB909EDFA9D7633 /* Pods_TajKatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +162,75 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0E15928BA28A75D2F64E2CB /* Pods_TajKatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		338C258086F04A3A6DC184F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60A444A91F8D7F6C003CF74D /* CoreData.framework */,
+				845D37AA1F3CE49700AC8BD9 /* AVFoundation.framework */,
+				845D37A81F3CE48D00AC8BD9 /* MobileCoreServices.framework */,
+				F739F41505326C3C991BC56B /* Pods_TajKat.framework */,
+				22FC972D0CF529D21B4C2FE1 /* Pods_TajKatTests.framework */,
+				7F69FD4030FB2CBA6BBCD0E6 /* Pods_TajKatUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		653B94997CD74C2FA38A0EE5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51806396052613D955181853 /* Pods-TajKat.debug.xcconfig */,
+				52630C69303D7CF57A3950DF /* Pods-TajKat.release.xcconfig */,
+				B5FF25D19FBD46812332E582 /* Pods-TajKatTests.debug.xcconfig */,
+				55A5462A6CA29DB3EF38BC5A /* Pods-TajKatTests.release.xcconfig */,
+				C4984B6392E3A2092837CB42 /* Pods-TajKatUITests.debug.xcconfig */,
+				02D996F9BEEBC98AACC6443A /* Pods-TajKatUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8452A5431F1E996E0021884F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8452A5441F1E99900021884F /* Me.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8477F99A1F23CFE9007D2EF2 /* TimeStamp */ = {
+			isa = PBXGroup;
+			children = (
+				8477F99B1F23D0C7007D2EF2 /* TimeSeparatorModel.swift */,
+				8477F99C1F23D0C7007D2EF2 /* TimeSeparatorPresenter.swift */,
+				8477F99D1F23D0C7007D2EF2 /* TimeSeparatorCollectionViewCell.swift */,
+			);
+			name = TimeStamp;
+			sourceTree = "<group>";
+		};
+		8477F9A11F23E22A007D2EF2 /* Sending Status */ = {
+			isa = PBXGroup;
+			children = (
+				8477F9A21F23E259007D2EF2 /* SendingStatusCollectionViewCell.swift */,
+				8477F9A31F23E259007D2EF2 /* SendingStatusCollectionViewCell.xib */,
+				8477F9A41F23E259007D2EF2 /* SendingStatusPresenter.swift */,
+			);
+			name = "Sending Status";
+			sourceTree = "<group>";
+		};
+		8477F9B31F27A915007D2EF2 /* Avatar */ = {
+			isa = PBXGroup;
+			children = (
+				8477F9B41F27A925007D2EF2 /* Avatar.swift */,
+			);
+			name = Avatar;
+			sourceTree = "<group>";
+		};
 		84CCB4AD1F07FF4D00854B8D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +238,8 @@
 				84CCB4CD1F07FF4E00854B8D /* TajKatTests */,
 				84CCB4D81F07FF4E00854B8D /* TajKatUITests */,
 				84CCB4B71F07FF4D00854B8D /* Products */,
+				653B94997CD74C2FA38A0EE5 /* Pods */,
+				338C258086F04A3A6DC184F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +256,40 @@
 		84CCB4B81F07FF4D00854B8D /* TajKat */ = {
 			isa = PBXGroup;
 			children = (
+				8477F9B31F27A915007D2EF2 /* Avatar */,
+				8477F9A11F23E22A007D2EF2 /* Sending Status */,
+				8477F99A1F23CFE9007D2EF2 /* TimeStamp */,
+				8452A5431F1E996E0021884F /* Model */,
+				84CCB4F41F082CEB00854B8D /* Photo Message */,
+				84CCB4E71F080A9100854B8D /* Text Message */,
 				84CCB4B91F07FF4D00854B8D /* AppDelegate.swift */,
-				84CCB4BB1F07FF4D00854B8D /* ViewController.swift */,
-				84CCB4BD1F07FF4E00854B8D /* Main.storyboard */,
+				60E135F41F8AE55A00215142 /* Constants.h */,
+				84E8406E1F33BCF800A4DEF7 /* PromptView.swift */,
+				84E8406C1F33BCF000A4DEF7 /* Extensions.swift */,
+				84E840701F33BD6100A4DEF7 /* Constants.swift */,
+				84CCB4BB1F07FF4D00854B8D /* ChatLogController.swift */,
+				84E840721F33BD7200A4DEF7 /* UserState.swift */,
+				84CCB4EE1F0815C000854B8D /* Decorator.swift */,
+				845D37A61F3A504300AC8BD9 /* iChatUsersCell.swift */,
+				845D37A41F3A156F00AC8BD9 /* NewMessageTableViewController.swift */,
 				84CCB4C01F07FF4E00854B8D /* Assets.xcassets */,
-				84CCB4C21F07FF4E00854B8D /* LaunchScreen.storyboard */,
 				84CCB4C51F07FF4E00854B8D /* Info.plist */,
+				8461D68A1F0FBEEB00FEEDDB /* GoogleService-Info.plist */,
+				84815ADB1F2E944500FFCD96 /* User.swift */,
+				84CCB4EA1F080FCB00854B8D /* DataSource.swift */,
+				84CCB4EC1F0810D700854B8D /* ChatItemsController.swift */,
+				8461D6961F0FC3CC00FEEDDB /* SignInViewController.swift */,
+				8461D6981F0FC3DF00FEEDDB /* SignUpViewController.swift */,
+				60E135F01F8ABD3000215142 /* SettingsViewController.swift */,
+				60E135E81F8AB91C00215142 /* LaunchScreen.storyboard */,
+				60E135EA1F8AB91C00215142 /* Main.storyboard */,
+				84E8407A1F33D4E900A4DEF7 /* AuthController.swift */,
+				84E840741F33BFF500A4DEF7 /* DatabaseController.swift */,
+				84E840761F33C01100A4DEF7 /* PromptViewController.swift */,
+				8461D69A1F0FC76600FEEDDB /* Helpers.swift */,
+				8461D69C1F13A9FD00FEEDDB /* MessagesTableViewController.swift */,
+				8461D6A01F13AA4A00FEEDDB /* MesagesTableViewCell.swift */,
+				84E840801F33FC5C00A4DEF7 /* UserProfile.swift */,
 			);
 			path = TajKat;
 			sourceTree = "<group>";
@@ -125,6 +312,26 @@
 			path = TajKatUITests;
 			sourceTree = "<group>";
 		};
+		84CCB4E71F080A9100854B8D /* Text Message */ = {
+			isa = PBXGroup;
+			children = (
+				84CCB4E81F080AAF00854B8D /* TextModel.swift */,
+				84CCB4F01F081AB200854B8D /* TextBuilder.swift */,
+				84CCB4F21F081EA500854B8D /* TextHandler.swift */,
+			);
+			name = "Text Message";
+			sourceTree = "<group>";
+		};
+		84CCB4F41F082CEB00854B8D /* Photo Message */ = {
+			isa = PBXGroup;
+			children = (
+				84CCB4F51F082CF900854B8D /* PhotoModel.swift */,
+				84CCB4F71F082EBD00854B8D /* PhotoBuilder.swift */,
+				84CCB4F91F08313400854B8D /* PhotoHandler.swift */,
+			);
+			name = "Photo Message";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +339,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84CCB4DE1F07FF4E00854B8D /* Build configuration list for PBXNativeTarget "TajKat" */;
 			buildPhases = (
+				4BDC9E4616092E4B1D31C7AD /* [CP] Check Pods Manifest.lock */,
 				84CCB4B21F07FF4D00854B8D /* Sources */,
 				84CCB4B31F07FF4D00854B8D /* Frameworks */,
 				84CCB4B41F07FF4D00854B8D /* Resources */,
+				20E0225F249765C003DC674B /* [CP] Embed Pods Frameworks */,
+				ED991108E8FEFD003A9DF3A3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +359,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84CCB4E11F07FF4E00854B8D /* Build configuration list for PBXNativeTarget "TajKatTests" */;
 			buildPhases = (
+				DE8A4EBD54D071DA0CD6B4B1 /* [CP] Check Pods Manifest.lock */,
 				84CCB4C61F07FF4E00854B8D /* Sources */,
 				84CCB4C71F07FF4E00854B8D /* Frameworks */,
 				84CCB4C81F07FF4E00854B8D /* Resources */,
+				0C3DA1DDC34C685BBAF7FE23 /* [CP] Embed Pods Frameworks */,
+				F60E45627F40CF3760614C80 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +380,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84CCB4E41F07FF4E00854B8D /* Build configuration list for PBXNativeTarget "TajKatUITests" */;
 			buildPhases = (
+				45B5368D250723127D6C4D89 /* [CP] Check Pods Manifest.lock */,
 				84CCB4D11F07FF4E00854B8D /* Sources */,
 				84CCB4D21F07FF4E00854B8D /* Frameworks */,
 				84CCB4D31F07FF4E00854B8D /* Resources */,
+				6252F79820DB487F5BEF9CA5 /* [CP] Embed Pods Frameworks */,
+				DB26D05DB83923793E55CC95 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,13 +404,18 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Adames-McDonald";
 				TargetAttributes = {
 					84CCB4B51F07FF4D00854B8D = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = J5EEV8595M;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					84CCB4C91F07FF4E00854B8D = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -235,9 +456,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84CCB4C41F07FF4E00854B8D /* LaunchScreen.storyboard in Resources */,
+				60E135F31F8AC1B400215142 /* LaunchScreen.storyboard in Resources */,
+				60E135F21F8AC1AA00215142 /* Main.storyboard in Resources */,
+				8477F9A61F23E259007D2EF2 /* SendingStatusCollectionViewCell.xib in Resources */,
+				8461D68B1F0FBEEB00FEEDDB /* GoogleService-Info.plist in Resources */,
 				84CCB4C11F07FF4E00854B8D /* Assets.xcassets in Resources */,
-				84CCB4BF1F07FF4E00854B8D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +480,219 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C3DA1DDC34C685BBAF7FE23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TajKatTests/Pods-TajKatTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20E0225F249765C003DC674B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TajKat/Pods-TajKat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Chatto/Chatto.framework",
+				"${BUILT_PRODUCTS_DIR}/ChattoAdditions/ChattoAdditions.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Chatto.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChattoAdditions.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TajKat/Pods-TajKat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45B5368D250723127D6C4D89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TajKatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BDC9E4616092E4B1D31C7AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TajKat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6252F79820DB487F5BEF9CA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TajKatUITests/Pods-TajKatUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB26D05DB83923793E55CC95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TajKatUITests/Pods-TajKatUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE8A4EBD54D071DA0CD6B4B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TajKatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED991108E8FEFD003A9DF3A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TajKat/Pods-TajKat-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TajKat/Pods-TajKat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F60E45627F40CF3760614C80 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TajKatTests/Pods-TajKatTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84CCB4B21F07FF4D00854B8D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84CCB4BC1F07FF4D00854B8D /* ViewController.swift in Sources */,
+				84E840771F33C01100A4DEF7 /* PromptViewController.swift in Sources */,
+				84CCB4F81F082EBD00854B8D /* PhotoBuilder.swift in Sources */,
+				8452A5451F1E99900021884F /* Me.swift in Sources */,
+				8461D69B1F0FC76600FEEDDB /* Helpers.swift in Sources */,
+				845D37A71F3A504300AC8BD9 /* iChatUsersCell.swift in Sources */,
+				60E135F11F8ABD3000215142 /* SettingsViewController.swift in Sources */,
+				84CCB4F61F082CF900854B8D /* PhotoModel.swift in Sources */,
+				84CCB4F11F081AB200854B8D /* TextBuilder.swift in Sources */,
+				84815ADC1F2E944500FFCD96 /* User.swift in Sources */,
+				8461D69D1F13A9FD00FEEDDB /* MessagesTableViewController.swift in Sources */,
+				84E8406D1F33BCF000A4DEF7 /* Extensions.swift in Sources */,
+				84CCB4ED1F0810D700854B8D /* ChatItemsController.swift in Sources */,
+				84E840711F33BD6100A4DEF7 /* Constants.swift in Sources */,
+				84E840731F33BD7200A4DEF7 /* UserState.swift in Sources */,
+				84E8407B1F33D4E900A4DEF7 /* AuthController.swift in Sources */,
+				84E840751F33BFF500A4DEF7 /* DatabaseController.swift in Sources */,
+				8477F9B51F27A925007D2EF2 /* Avatar.swift in Sources */,
+				84CCB4E91F080AAF00854B8D /* TextModel.swift in Sources */,
+				84CCB4BC1F07FF4D00854B8D /* ChatLogController.swift in Sources */,
+				84CCB4EB1F080FCB00854B8D /* DataSource.swift in Sources */,
+				84CCB4FA1F08313400854B8D /* PhotoHandler.swift in Sources */,
+				8477F9A01F23D0C7007D2EF2 /* TimeSeparatorCollectionViewCell.swift in Sources */,
+				84E840811F33FC5C00A4DEF7 /* UserProfile.swift in Sources */,
+				8461D6971F0FC3CC00FEEDDB /* SignInViewController.swift in Sources */,
+				8477F99E1F23D0C7007D2EF2 /* TimeSeparatorModel.swift in Sources */,
+				8477F9A51F23E259007D2EF2 /* SendingStatusCollectionViewCell.swift in Sources */,
 				84CCB4BA1F07FF4D00854B8D /* AppDelegate.swift in Sources */,
+				84CCB4EF1F0815C000854B8D /* Decorator.swift in Sources */,
+				8461D6A11F13AA4A00FEEDDB /* MesagesTableViewCell.swift in Sources */,
+				8477F99F1F23D0C7007D2EF2 /* TimeSeparatorPresenter.swift in Sources */,
+				845D37A51F3A156F00AC8BD9 /* NewMessageTableViewController.swift in Sources */,
+				8461D6991F0FC3DF00FEEDDB /* SignUpViewController.swift in Sources */,
+				84CCB4F31F081EA500854B8D /* TextHandler.swift in Sources */,
+				8477F9A71F23E259007D2EF2 /* SendingStatusPresenter.swift in Sources */,
+				84E8406F1F33BCF800A4DEF7 /* PromptView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,20 +728,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		84CCB4BD1F07FF4E00854B8D /* Main.storyboard */ = {
+		60E135E81F8AB91C00215142 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				84CCB4BE1F07FF4E00854B8D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		84CCB4C21F07FF4E00854B8D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84CCB4C31F07FF4E00854B8D /* Base */,
+				60E135E91F8AB91C00215142 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		60E135EA1F8AB91C00215142 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60E135EB1F8AB91C00215142 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -328,7 +757,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -336,7 +767,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -359,7 +794,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -379,7 +814,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -387,7 +824,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -404,7 +845,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -415,6 +856,7 @@
 		};
 		84CCB4DF1F07FF4E00854B8D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51806396052613D955181853 /* Pods-TajKat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J5EEV8595M;
@@ -422,12 +864,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tamcdonald92.TajKat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/tajhmcdonald/Desktop/TajKat/TajKat/Constants.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		84CCB4E01F07FF4E00854B8D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52630C69303D7CF57A3950DF /* Pods-TajKat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J5EEV8595M;
@@ -435,12 +879,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tamcdonald92.TajKat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/tajhmcdonald/Desktop/TajKat/TajKat/Constants.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		84CCB4E21F07FF4E00854B8D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5FF25D19FBD46812332E582 /* Pods-TajKatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +902,7 @@
 		};
 		84CCB4E31F07FF4E00854B8D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55A5462A6CA29DB3EF38BC5A /* Pods-TajKatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +918,7 @@
 		};
 		84CCB4E51F07FF4E00854B8D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4984B6392E3A2092837CB42 /* Pods-TajKatUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = J5EEV8595M;
@@ -485,6 +933,7 @@
 		};
 		84CCB4E61F07FF4E00854B8D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02D996F9BEEBC98AACC6443A /* Pods-TajKatUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = J5EEV8595M;
@@ -516,6 +965,7 @@
 				84CCB4E01F07FF4E00854B8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84CCB4E11F07FF4E00854B8D /* Build configuration list for PBXNativeTarget "TajKatTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +974,7 @@
 				84CCB4E31F07FF4E00854B8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84CCB4E41F07FF4E00854B8D /* Build configuration list for PBXNativeTarget "TajKatUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +983,7 @@
 				84CCB4E61F07FF4E00854B8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

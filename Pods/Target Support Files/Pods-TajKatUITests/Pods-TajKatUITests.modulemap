@@ -1,0 +1,6 @@
+framework module Pods_TajKatUITests {
+  umbrella header "Pods-TajKatUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
